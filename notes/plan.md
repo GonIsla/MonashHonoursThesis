@@ -29,10 +29,10 @@ Dado el caso de uso de referencia, los algoritmos deben permitir caracterizar el
 	- O1.1 Identificar qué procesos estadísticos permiten modelar series de ventas y con qué rangos de parámetros.
 	- O1.2 Generar series de ventas simuladas con cambios en valores medios, tendencia y estacionalidad.
 
-- O2 Evaluar la performance de los algoritmos mas usados a partir de series
+- O2 Evaluar la performance de los algoritmos de detección de puntos de cambio más usados
 	- O2.1 Identificar los algoritmos mas utilizados
 	- O2.2 Definir los criterios de comparación de los algoritmos
-	- O2.3 Aplicar los algoritmos a las series generadas de objetivo 2
+	- O2.3 Aplicar los algoritmos a las series generadas de objetivo O1.2
 
 ## 3. Metodología
 
@@ -40,7 +40,7 @@ Dado el caso de uso de referencia, los algoritmos deben permitir caracterizar el
 
 Materiales: 
 - Trabajo en R con paquetes de detección de cambios: ecp, changepoint, oddstream, trend, breakpoint, cpm, climtrend, prophet, forecast.
-- Datos públicos: [UCI ventas de cadena británica](), [Datos públicos de facturación  de hospitales](), [Ecomerce brasilero Kaggle]().
+- Datos públicos: UCI ventas de cadena británica(), Datos públicos de facturación  de hospitales de Argentina(), Ecomerce brasilero Kaggle().
 
 Métodología:
 
